@@ -11,6 +11,6 @@ On this week assignment, I'm implementing:
 - Create simple animation with 2 method: animation and transition
 
 You can visit my website by clicking here <br>
-[visit my website](https://traveplan-week3-assignment.netlify.app/)<br>
+[visit my website](https://module-2-cathvale.netlify.app)<br>
 
 Thank you for visiting!
