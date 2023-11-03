@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravePlan | Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background-color">
+    <nav class="nav-section">
+        <img src="Photos/Hamburger Icon.png" alt="Hamburger Icon" class="hamburger-icon"/>
+        <img src="Photos/Logo.png" alt="TravePlan Logo" class="traveplan-logo"/>
+    </nav>
+    <header class="container">
+        <img src="Photos/Header.png" alt="Header" class="header">
+        <section class="background-header">
+        <h1 class="h1">Create Your Own Memorable Trip with TravePlan</h1>
+        </section>
+    </header>
+    <main>
+        <article class="h2-container">
+         <h2>Why TravePlan?</h2>
+         <p>
+            With TravePlan, you are able to <b>travel without worries</b>.<br/>
+            We'll accompany you through your trip from the beginning until the end of your Trip.
+        </p>
+        </article>
+        <figure class="image-container">
+            <picture>
+            <source media="(max-width:1077px)" srcset="Photos/Utah.jpg"> 
+            <img src="Photos/Dive.jpg" alt="Diving" class="picture" id="one">
+            </picture>
+            <img src="Photos/Beach.jpg" alt="Woman on a Beach" class="picture" id="two">
+            <img src="Photos/Couple.jpg" alt="Couple Travelling" class="picture" id="three">
+            <img src="Photos/Group.jpg" alt="Travelling with Friends" class="picture" id="four">
+            <img src="Photos/Woman.jpg" alt="Woman Travelling" class="picture" id="five">
+        </figure>
+        <span class="fig-container">
+        <figure class="fig-background">
+            <span class="image">
+            <img src="Photos/Self.jpg" alt="Self Itinerary Photo" width="80%"/>
+            </span>
+            <p class="text">Create Own Itinerary</p>  
+            <button type="button" class="button">Create Now</button><br/>
+        </figure> 
+        <figure class="fig-background-2">
+            <span class="image-2">
+            <img src="Photos/AI.jpg" alt="Generate Itinerary Photo" width="80%"/>
+            </span>
+            <p class="text">Ask AI Suggestion</p>
+            <button type="button" class="button">Generate Now</button>
+        </figure>
+        </span>
+
+        <section class="sec-container">
+            <fieldset class="form">
+            <h2>Tell Us,<br>
+            Where would You travel next?</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input [type="text"] id="name" name="name" style="width:auto" required/>
+            <p>Are you planning to go on a Trip?</p>
+                <input type="radio" id="yes" name="trip" value="Yes">
+                <label for="yes">Yes</label>
+                <input type="radio" id="no" name="trip" value="No">
+                <label for="no">No</label><br>
+            <label for="date">When do you plan to go?</label><br>
+            <input type="date" id="date" name="date" min="2022-07-01" max="2024-07-01"><br>
+            <label for="continents">Which Continents would you like to go?</label><br>
+            <select name="continents" id="continents">
+                <option value="Asia">Asia</option>
+                <option value="Africa">Africa</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+                <option value="Antarctica">Antarctica</option>
+                <option value="Europe">Europe</option>
+                <option value="Australia">Australia</option>
+            </select>
+                <p>What makes you want to Travel?"</p>
+                <input type="checkbox" id="foodndrink" name="foodndrink" value="Food&Drink">
+                <label for="foodndrink">Food & Drink</label><br>
+                <input type="checkbox" id="ambiance" name="ambiance" value="Ambiance">
+                <label for="ambiance">Ambiance</label><br>
+                <input type="checkbox" id="historical" name="historical" value="HistoricalPlaces">
+                <label for="historical">Historical Places</label><br>
+                <input type="checkbox" id="community" name="community" value="Community">
+                <label for="community">Community</label><br>
+                <input type="checkbox" id="others" name="others" value="others">
+                <label for="others">Others</label><br>
+            <br>
+            <label for="otherreason">Any other reasons?</label><br>
+            <textarea id="otherreason" name="otherreason"></textarea>
+            <form action="/Index.html"><br>
+                <button type="submit" class="form-button">Submit</button>
+            </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Copyright &copy 2023 TravePlan</p>
+    </footer>
+</body>
+</html>
